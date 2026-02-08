@@ -37,8 +37,8 @@
 
 ```bash
 cd ~/Desktop
-git clone https://github.com/jh941213/openclaw-upbit.git
-cd openclaw-upbit
+git clone https://github.com/jh941213/openclaw-upbit-skills.git
+cd openclaw-upbit-skills
 ```
 
 **Step 2**: Copy files to OpenClaw
@@ -176,7 +176,7 @@ pnpm openclaw gateway restart
 ## 📁 File Structure
 
 ```
-openclaw-upbit/
+openclaw-upbit-skills/
 ├── README.md                    # This file
 ├── README.ko.md                 # Korean documentation
 ├── LICENSE                      # MIT License
@@ -228,7 +228,7 @@ openclaw-upbit/
 ## 🧪 Testing
 
 ```bash
-cd openclaw-upbit
+cd openclaw-upbit-skills
 
 # Set environment variables
 export UPBIT_ACCESS_KEY="your_key"
